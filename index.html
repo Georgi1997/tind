@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>tindog</title>
+    <!-- Google fonts  -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- favicon -->
+    <link rel="icon" href="favicon (1).ico" />
+    <!-- Style sheets -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- bootstrap -->
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+      crossorigin="anonymous"
+    ></script>
+    <!-- FontAwesome -->
+    <script
+      src="https://kit.fontawesome.com/38231834f9.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <section id="title">
+      <!-- nav bar -->
+      <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg navbar-dark">
+          <a class="navbar-brand" href="">tindog</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarTogglerDemo01"
+            aria-controls="navbarTogglerDemo01"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+            <ul class="navbar-nav navbar-expand-lg ml-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="#footer">Contact</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#cta">Download</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#pricing">Pricing</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+        <!--  Title-->
+
+        <div class="row">
+          <div class="col-lg-6">
+            <h1>Meet new and interesting dogs nearby</h1>
+
+            <a href="https://www.apple.com/app-store/" target="_blank">
+              <button
+                typ
+                e="button"
+                class="btn btn-dark btn-lg download-button"
+              >
+                <i class="fab fa-apple"></i> Download
+              </button>
+            </a>
+
+            <a href="https://play.google.com/store/music" target="_blank">
+              <button
+                type="button"
+                class="btn btn-outline-light btn-lg download-button2"
+              >
+                <i class="fab fa-google-play"></i>
+                Download
+              </button>
+            </a>
+          </div>
+
+          <div class="col-lg-6 iphone2">
+            <img
+              class="iphone"
+              src="images/iphone6.png"
+              alt="iphone"
+              srcset=""
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Features -->
+    <section id="features">
+      <div class="container-fluid features-container">
+        <div class="row">
+          <div class="col-lg-4">
+            <i class="fas fa-check-circle fa-7x center"></i>
+            <h3 class="heading-features">Easy to use.</h3>
+            <p class="paragraph-features">
+              So easy to use, even your dog could do it
+            </p>
+          </div>
+          <div class="col-lg-4">
+            <i class="fas fa-bullseye fa-7x center"></i>
+            <h3 class="heading-features">Elite Clientele</h3>
+            <p class="paragraph-features">
+              We have all the dogs, the greatest dogs
+            </p>
+          </div>
+          <div class="col-lg-4">
+            <i class="fas fa-heart fa-7x center"></i>
+            <h3 class="heading-features">Guaranteed to work</h3>
+            <p class="paragraph-features">
+              Find the love of your dog's life or your money back
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials -->
+
+    <section id="testimonial">
+      <div id="testimonial-carousel" class="carousel slide" data-ride="false">
+        <ol class="carousel-indicators">
+          <li
+            data-target="#carousel-item"
+            data-slide-to="0"
+            class="active"
+          ></li>
+          <li data-target="#carousel-item" data-slide-to="1"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <h2>
+              I no longer have to sniff other dogs for love. I've found the
+              hottest Corgi on tindog. Woof
+            </h2>
+            <img
+              class="img-fluid pebbles"
+              src="images/dog-img.jpg"
+              alt="pebbles"
+            />
+            <em>Pebbles, New York</em>
+          </div>
+          <div class="carousel-item">
+            <h2>
+              My dog used to be so lonely, but with TinDog's help, they've found
+              the love of their life. I think.
+            </h2>
+            <img
+              class="img-fluid pebbles"
+              src="images/lady-img.jpg"
+              alt="lady-profile"
+            />
+            <em>Beverly, Illinois</em>
+          </div>
+        </div>
+        <a
+          class="carousel-control-prev"
+          href="#testimonial-carousel"
+          role="button"
+          data-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a
+          class="carousel-control-next"
+          href="#testimonial-carousel"
+          role="button"
+          data-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </section>
+
+    <!-- Press -->
+
+    <section id="press">
+      <img
+        class="img-fluid press-imgs"
+        src="/images/TechCrunch.png"
+        alt="tclogo"
+      />
+      <img class="img-fluid press-imgs" src="images/tnw.png" alt="tnwlogo" />
+      <img
+        class="img-fluid press-imgs"
+        src="images/bizinsider.png"
+        alt="bzlogo"
+      />
+      <img
+        class="img-fluid press-imgs"
+        src="images/mashable.png"
+        alt="mslogo"
+      />
+    </section>
+
+    <!--  Pricing -->
+    <section id="pricing">
+      <h2 class="heading-price">A Plan for Every Dog's Needs</h2>
+      <p class="heading-paragraph">
+        Simple and affordable price plans for your and your dog only!
+      </p>
+
+      <div class="card-deck mb-3 text-center">
+        <div class="card mb-4 shadow-sm">
+          <div class="card-header">
+            <h4 class="my-0 font-weight-normal">Chihuahua</h4>
+          </div>
+          <div class="card-body">
+            <h1 class="card-title pricing-card-title">
+              0 <small class="text-muted">/ mo</small>
+            </h1>
+            <ul class="list-unstyled mt-3 mb-4 unorder">
+              <li>5 Mathers per Day</li>
+              <li>10 Messages per Day</li>
+              <li>Unlimited app Usage</li>
+            </ul>
+            <button type="button" class="btn btn-lg btn-block btn-outline-info">
+              Sign up for free
+            </button>
+          </div>
+        </div>
+        <div class="card mb-4 shadow-sm">
+          <div class="card-header">
+            <h4 class="my-0 font-weight-normal">Labrador</h4>
+          </div>
+          <div class="card-body">
+            <h1 class="card-title pricing-card-title">
+              $49<small class="text-muted">/ mo</small>
+            </h1>
+            <ul class="list-unstyled mt-3 mb-4 unorder">
+              <li>Unlimited Matches</li>
+              <li>Unlimited Messages</li>
+
+              <li>Unlimited App Usage</li>
+            </ul>
+            <button type="button" class="btn btn-lg btn-block btn-outline-info">
+              Sign Up
+            </button>
+          </div>
+        </div>
+        <div class="card mb-4 shadow-sm">
+          <div class="card-header">
+            <h4 class="my-0 font-weight-normal">Mastiff</h4>
+          </div>
+          <div class="card-body">
+            <h1 class="card-title pricing-card-title">
+              $99 <small class="text-muted">/ mo</small>
+            </h1>
+            <ul class="list-unstyled mt-3 mb-4 unorder">
+              <li>Priority Listing</li>
+              <li>Unlimited Matches</li>
+              <li>Unlimited Messages</li>
+            </ul>
+            <button type="button" class="btn btn-lg btn-block btn-outline-info">
+              Sign Up
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Call to action -->
+    <section id="cta">
+      <h3 class="cta-heading">Find the true love of your dog's life today.</h3>
+      <a href="https://www.apple.com/app-store/" target="_blank">
+        <button typ e="button" class="btn btn-dark btn-lg download-button2">
+          <i class="fab fa-apple"></i> Download
+        </button>
+      </a>
+      <a href="https://play.google.com/store/music" target="_blank">
+        <button
+          type="button"
+          class="btn btn-outline-light btn-lg download-button2"
+        >
+          <i class="fab fa-google-play"></i>
+          Download
+        </button>
+      </a>
+    </section>
+    <!-- Footer -->
+    <footer id="footer">
+      <a class="social-icons" href="https://twitter.com/" target="_blank"
+        ><i class="fab fa-twitter"></i
+      ></a>
+      <a class="social-icons" href="https://www.facebook.com/" target="_blank"
+        ><i class="fab fa-facebook-f"></i
+      ></a>
+      <a class="social-icons" href="https://www.instagram.com/" target="_blank"
+        ><i class="fab fa-instagram"></i
+      ></a>
+      <a
+        class="social-icons"
+        href="https://mail.google.com/mail/u/0/"
+        target="_blank"
+        ><i class="fas fa-envelope"></i
+      ></a>
+      <p class="copyright-paragraph">© Copyright 2020 TinDog</p>
+    </footer>
+  </body>
+</html>
